@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+nav .navigation {
+    display: grid;
+    background-color: silver;
+    width: 100%;
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+nav .navigation div {
+    margin: auto;
+    color: brown;
+    font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.wrapper section .one{
+    /* background-size: cover;
+    background-image: url('http://i.imgur.com/u2oPC.jpg'); */
+    width: 100%;
+    height: 600px;
+/*     position: relative;
+ */   
+    background-color: black;
+    display: flex;
+}
+
+
+.wrapper section .one h1 {
+    /* position: absolute;
+    top: 200px;
+    left: 350px; */
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+.wrapper section .two {
+    background-color: bisque;
+    width: 100%;
+    height: 300px;
+}
+
+.wrapper section .two h2 {
+    font-size: 2.5em;
+    color: brown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.wrapper section .two_text  {
+    border: 2px solid black;
+    width: 80%;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 3px 2px black;
+    margin-top: 20px;
+}
+.wrapper section .two_text p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.wrapper section .three {
+    background-color: silver;
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+}
+
+.wrapper section .three h2 {
+    font-size: 2.5em;
+    color: brown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.wrapper section .three .three_text {
+    border: 2px solid black;
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+
+}
+.wrapper section .three .skills_logo {
+    width: 50%;
+    float: right;
+
+}
+
+.wrapper section .three .skills_logo img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.wrapper section .quatre h2 {
+    font-size: 2.5em;
+    color: brown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.wrapper section .forth_box {
+    display: flex;
+}
+
+.wrapper section .forth_box .small_box {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.wrapper section .forth_box .small_box h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.wrapper section .forth_box .small_box p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
