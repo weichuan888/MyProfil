@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>MyProfil</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
   <!--   <header>
@@ -13,10 +16,10 @@
     </header> -->
     <nav>
         <div class="navigation">
-            <div>Home</div>
-            <div>About Me</div>
-            <div>Skills</div>
-            <div>Projects</div>
+           <!--  <div>Home</div> -->
+            <div id="GoAbout">About Me</div>
+            <div id="GoSkills">Skills</div>
+            <div id="GoProjects">Projects</div>
           <!--   <div>Contact</div> -->
         </div>
     </nav>
@@ -24,12 +27,12 @@
     <div class="wrapper">
         <section>
             <div class="one">
-                <h1>Hi, I'm Weichuan <br/> I'm a Front End <br/>Web Developer <br/> Website en construction</h1>
+                <h1>Hi, I'm Weichuan <br/> I'm a Front End <br/>Web Developer</h1>
             </div>
         </section>
         <section>
             <div class="two">
-                <div>
+                <div id="About">
                     <h2>About Me</h2>
                 </div>
                 <div class="two_text">
@@ -42,18 +45,25 @@
                             challenges.<br/>
                             Motivation, rigor and listening
                             are the watchwords of my
-                            professional behavior.</p>
+                            professional behavior.<br/>
+                            I did an intensive coding formation in Becode
+                    </p>
+                            
                 </div>
             </div>
         </section>
         <section>
             <div class="three">
-                <div>
+                <div id="Skill">
                     <h2>Skills</h2>
                 </div>
                 <div class="thee_box">
                     <div class="three_text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur molestiae reprehenderit delectus sed, architecto rem adipisci ratione quaerat? Impedit maiores quisquam consequuntur exercitationem, nisi quo veritatis inventore sapiente distinctio.</p>
+                        <p>
+                            During my formation, I learn a lot of languages programming such as Html, Css, Sass, Bootstrap, Javascript, ReactJs, AngularJs, Ionic.
+                            <br/>
+                            I realized some projets in using theses skills. 
+                        </p>
                     </div>
                     <div class="skills_logo">
                         <img src="img/2000px-HTML5_logo_and_wordmark.svg.png" alt="Html">
@@ -70,7 +80,9 @@
         </section>
         <section>
             <div class="quatre">
-                <h2>Projects</h2>
+                <div id="Projects">
+                    <h2>Projects</h2>
+                </div>
                 <div class=forth_box>
                     <div class="small_box">
                         <a href=""> <img src="" alt=""></a>
@@ -130,6 +142,25 @@
         </div>
 
     </footer>
+   
+    <script>
+        $("#GoAbout").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#About").offset().top},
+            'slow');
+            });
 
+        $("#GoSkills").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#Skill").offset().top},
+            'slow');
+        });
+
+        $("#GoProjects").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#Projects").offset().top},
+                'slow');
+        });
+    </script>
 </body>
 </html>
