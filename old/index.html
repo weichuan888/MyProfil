@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>MyProfil</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+  <!--   <header>
+        <h1>Welcome to my Website Wx8</h1>
+    </header> -->
+    <nav>
+        <div class="navigation">
+           <!--  <div>Home</div> -->
+            <div id="GoAbout">About Me</div>
+            <div id="GoSkills">Skills</div>
+            <div id="GoProjects">Projects</div>
+          <!--   <div>Contact</div> -->
+        </div>
+    </nav>
+    
+    <div class="wrapper">
+        <section>
+            <div class="one">
+                <h1>Hi, I'm Weichuan <br/> I'm a Front End <br/>Web Developer</h1>
+            </div>
+        </section>
+        <section>
+            <div class="two">
+                <div id="About">
+                    <h2>About Me</h2>
+                </div>
+                <div class="two_text">
+                    <p>I am a Junior Web Developer
+                            who is passionate by Front-End
+                            Dev and by new web
+                            technologies.<br/>
+                            I am curious, structured and
+                            analytical person, I like
+                            challenges.<br/>
+                            Motivation, rigor and listening
+                            are the watchwords of my
+                            professional behavior.<br/>
+                            I did an intensive coding formation in Becode
+                    </p>
+                            
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="three">
+                <div id="Skill">
+                    <h2>Skills</h2>
+                </div>
+                <div class="thee_box">
+                    <div class="three_text">
+                        <p>
+                            During my formation, I learn a lot of languages programming such as Html, Css, Sass, Bootstrap, Javascript, ReactJs, AngularJs, Ionic.
+                            <br/>
+                            I realized some projets in using theses skills. 
+                        </p>
+                    </div>
+                    <div class="skills_logo">
+                        <img src="img/2000px-HTML5_logo_and_wordmark.svg.png" alt="Html">
+                        <img src="img/CSS3_logo_and_wordmark.svg.png" alt="css">
+                        <img src="img/javascript-logo-E967E87D74-seeklogo.com.png" alt="js">
+                        <img src="img/2000px-Sass_Logo_Color.svg.png" alt="sass">
+                        <img src="img/Boostrap_logo.svg" alt="boostrap">
+                        <img src="img/1_To2H39eauxaeYxYMtV1afQ.png" alt="reactjs">
+                        <img src="img/1tsh.png" alt="angularjs">
+                        <img src="img/LogoIonic.png" alt="ionic">        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="quatre">
+                <div id="Projects">
+                    <h2>Projects</h2>
+                </div>
+                <div class=forth_box>
+                    <div class="small_box">
+                        <a href=""> <img src="" alt=""></a>
+                        <h3>Accenture: Mobishare</h3>
+                        <p>Position: Front-End Dev<p/> 
+                        <p>Website application: HTML, CSS/SASS, Boostrap, Javascript and Ruby On Rails</p>
+                        <p>Mobile application: Ionic and AngularJS</p>
+                    </div>
+                    <div class="small_box">
+                        <a href=""> <img src="" alt=""></a>
+                        <h3>4wingsFoundation</h3>
+                        <p>Position: Front-End Dev <br/> 
+                            Website application: HTML, CSS, Bootstrap and Javascript</p>
+                            
+                    </div>
+                    <div class="small_box">
+                        <a href=""> <img src="" alt=""></a>
+                        <h3>Becode: ReactJs</h3>
+                        <p>Test Using React Js for a OnePage</p>
+                    </div>
+                    <div class="small_box">
+                        <a href=""> <img src="" alt=""></a>
+                        <h3>Becode: Php, Mysql, MVC</h3>
+                        <p>Some random exercices</p>
+                    </div>
+                    <div class="small_box">
+                        <a href=""> <img src="" alt=""></a>
+                        <h3>Becode: Html, CSS, JS</h3>
+                        <p>Some random exercices</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--  <section>
+            <div class="cinq">
+                <h2>Contact</h2>
+                <div class="formulaire">
+                    <form action="post">
+                        <label for="">Nom</label>
+                        <input type="Nom">
+                        <label for="">Prenom</label>
+                        <input type="Prenom">
+                        <label for="">Email</label>
+                        <input type="mail">
+                        <label for="">Tel</label>
+                        <input type="tel">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button type="submit">Ok</button>
+                    </form>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    <footer>
+        <div class="end">
+            <h5> Weichuan Tran</h5>
+            <p>mail: weichuan.tran@gmail.com</p>
+
+        </div>
+
+    </footer>
+   
+    <script>
+        $("#GoAbout").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#About").offset().top},
+            'slow');
+            });
+
+        $("#GoSkills").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#Skill").offset().top},
+            'slow');
+        });
+
+        $("#GoProjects").click(function(){
+            $('html,body').animate({
+                scrollTop: $("#Projects").offset().top},
+                'slow');
+        });
+    </script>
+</body>
+</html>

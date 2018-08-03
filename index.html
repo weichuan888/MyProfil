@@ -1,168 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>MyProfil</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="script.js"></script>
 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>portfolio Weichuan Tran</title>
+<!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/component.css">
+	
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
 </head>
-<body>
-  <!--   <header>
-        <h1>Welcome to my Website Wx8</h1>
-    </header> -->
-    <nav>
-        <div class="navigation">
-           <!--  <div>Home</div> -->
-            <div id="GoAbout">About Me</div>
-            <div id="GoSkills">Skills</div>
-            <div id="GoProjects">Projects</div>
-          <!--   <div>Contact</div> -->
-        </div>
-    </nav>
-    
-    <div class="wrapper">
-        <section>
-            <div class="one">
-                <h1>Hi, I'm Weichuan <br/> I'm a Front End <br/>Web Developer</h1>
-            </div>
-        </section>
-        <section>
-            <div class="two">
-                <div id="About">
-                    <h2>About Me</h2>
-                </div>
-                <div class="two_text">
-                    <p>I am a Junior Web Developer
-                            who is passionate by Front-End
-                            Dev and by new web
-                            technologies.<br/>
-                            I am curious, structured and
-                            analytical person, I like
-                            challenges.<br/>
-                            Motivation, rigor and listening
-                            are the watchwords of my
-                            professional behavior.<br/>
-                            I did an intensive coding formation in Becode
-                    </p>
-                            
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="three">
-                <div id="Skill">
-                    <h2>Skills</h2>
-                </div>
-                <div class="thee_box">
-                    <div class="three_text">
-                        <p>
-                            During my formation, I learn a lot of languages programming such as Html, Css, Sass, Bootstrap, Javascript, ReactJs, AngularJs, Ionic.
-                            <br/>
-                            I realized some projets in using theses skills. 
-                        </p>
-                    </div>
-                    <div class="skills_logo">
-                        <img src="img/2000px-HTML5_logo_and_wordmark.svg.png" alt="Html">
-                        <img src="img/CSS3_logo_and_wordmark.svg.png" alt="css">
-                        <img src="img/javascript-logo-E967E87D74-seeklogo.com.png" alt="js">
-                        <img src="img/2000px-Sass_Logo_Color.svg.png" alt="sass">
-                        <img src="img/Boostrap_logo.svg" alt="boostrap">
-                        <img src="img/1_To2H39eauxaeYxYMtV1afQ.png" alt="reactjs">
-                        <img src="img/1tsh.png" alt="angularjs">
-                        <img src="img/LogoIonic.png" alt="ionic">        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="quatre">
-                <div id="Projects">
-                    <h2>Projects</h2>
-                </div>
-                <div class=forth_box>
-                    <div class="small_box">
-                        <a href=""> <img src="" alt=""></a>
-                        <h3>Accenture: Mobishare</h3>
-                        <p>Position: Front-End Dev<p/> 
-                        <p>Website application: HTML, CSS/SASS, Boostrap, Javascript and Ruby On Rails</p>
-                        <p>Mobile application: Ionic and AngularJS</p>
-                    </div>
-                    <div class="small_box">
-                        <a href=""> <img src="" alt=""></a>
-                        <h3>4wingsFoundation</h3>
-                        <p>Position: Front-End Dev <br/> 
-                            Website application: HTML, CSS, Bootstrap and Javascript</p>
-                            
-                    </div>
-                    <div class="small_box">
-                        <a href=""> <img src="" alt=""></a>
-                        <h3>Becode: ReactJs</h3>
-                        <p>Test Using React Js for a OnePage</p>
-                    </div>
-                    <div class="small_box">
-                        <a href=""> <img src="" alt=""></a>
-                        <h3>Becode: Php, Mysql, MVC</h3>
-                        <p>Some random exercices</p>
-                    </div>
-                    <div class="small_box">
-                        <a href=""> <img src="" alt=""></a>
-                        <h3>Becode: Html, CSS, JS</h3>
-                        <p>Some random exercices</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-       <!--  <section>
-            <div class="cinq">
-                <h2>Contact</h2>
-                <div class="formulaire">
-                    <form action="post">
-                        <label for="">Nom</label>
-                        <input type="Nom">
-                        <label for="">Prenom</label>
-                        <input type="Prenom">
-                        <label for="">Email</label>
-                        <input type="mail">
-                        <label for="">Tel</label>
-                        <input type="tel">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <button type="submit">Ok</button>
-                    </form>
-                </div>
-            </div>
-        </section> -->
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Weichuan Tran</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About Me</span></a></li>
+            <li><a href="#skills" class="smoothScroll"><span>Skills</span></a></li>
+            <li><a href="#gallery" class="smoothScroll"><span>Projects</span></a></li>
+          </ul>
+       </div>
+
     </div>
-    <footer>
-        <div class="end">
-            <h5> Weichuan Tran</h5>
-            <p>mail: weichuan.tran@gmail.com</p>
+  </div>
 
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hi, I'm Weichuan Tran</h1>
+        <h2 class="wow fadeInUp" data-wow-delay="0.9s">Junior Web developer</h2>
+<!--         <a href="#about" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Learn more</a>
+ -->    <br/>
+        
+        <p>Mail: weichuan.tran@gmail.com</p>
+        <p>Tél: +32 472 32 65 51</p>    
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- About section -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>About Me</h1>
+          <p>I am a Junior Web Developer who is passionate by Front-End Dev and by new web technologies.
+            I am curious, structured and analytical person, I like challenges.
+            Motivation, rigor and listening are the watchwords of my professional behavior.
+            I did an intensive coding formation in Becode</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+     <!--  <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="images/source-code.png" class="img-responsive img-circle" alt="About">
+      </div> -->
+      <div class="clearfix"></div>
+
+<section id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title text-center">
+          <h1>Skills</h1>
+          <h3>
+            During my formation, I learn a lot of languages programming such as Html, Css, Sass, Bootstrap, Javascript, ReactJs, AngularJs, Ionic. 
+            I realized some projets in using theses skills.</h3>
+        </div>
+      </div>
+
+      <!-- team carousel -->
+      <div id="team-carousel" class="owl-carousel">
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/2000px-HTML5_logo_and_wordmark.svg.png" class="img-responsive" alt="Mary">
+          </div>
+       <!--    <h2 class="heading">HTML</h2>
+          <p class="description">Aliquam ac justo est. Praesent feugiat cursus est.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/css3.png" class="img-responsive" alt="Jack">
+          </div>
+         <!--  <h2 class="heading">Jack, Founder</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit non.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/Javascript-shield.png" class="img-responsive" alt="Linda">
+          </div>
+         <!--  <h2 class="heading">Linda, Manager</h2>
+          <p class="description">Phasellus nec ante in nunc molestie tincidunt ut eu diam.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/Boostrap_logo.svg" class="img-responsive" alt="Sandy">
+          </div>
+     <!--      <h2 class="heading">Sandy, Director</h2>
+          <p class="description">Curabitur vulputate euismod neque et tincidunt.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/2000px-Sass_Logo_Color.svg.png" class="img-responsive" alt="Lukia">
+          </div>
+         <!--  <h2 class="heading">Lukia, Fashion</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/1_To2H39eauxaeYxYMtV1afQ.png" class="img-responsive" alt="George">
+          </div>
+         <!--  <h2 class="heading">George, Admin</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/1tsh.png" class="img-responsive" alt="Day">
+          </div>
+         <!--  <h2 class="heading">Day, Accountant</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p> -->
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/LogoIonic.png" class="img-responsive" alt="Lynn">
+          </div>
+         <!--  <h2 class="heading">Lynn, Marketing</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p> -->
+        </div>
+      </div>
+
+      </div>
+      <!-- end team carousel -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>Projets</h1>
+          <p>Voici les projets auxquels j'ai participé durant mon parcours.</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/accenture.jpg" alt="image 1"></div>
+            <figcaption>
+              <h1>Accenture: Mobishare</h1>
+              <small>Position: Front-End Dev<br/><br/>
+
+                Website application: HTML, CSS/SASS, Boostrap, Javascript and Ruby On Rails
+                <br/><br/>
+                
+                Mobile application: Ionic and AngularJS</small>
+              <a href="https://www.mobishare.community/fr">Read More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/4wings.png" alt="image 2"></div>
+            <figcaption>
+              <h1>Becode: 4wings<br/>Foundation</h1>
+              <small>Position: Front-End Dev <br/><br/>
+                Website application: HTML, CSS, SASS, Bootstrap and Javascript</small>
+              <a href="https://github.com/GjeloshajAntoine/4wing-website">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <!-- <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Cras ante sem</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li> -->
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact section -->
+
+<!-- <section id="contact">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Send a message</h1>
+          <p>Nunc suscipit ante in lectus laoreet, nec pharetra diam dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         </div>
 
-    </footer>
-   
-    <script>
-        $("#GoAbout").click(function(){
-            $('html,body').animate({
-                scrollTop: $("#About").offset().top},
-            'slow');
-            });
+        <form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+          <div class="col-md-6 col-sm-6">
+            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+            <input type="submit" class="form-control" value="SEND MESSAGE">
+          </div>
+        </form>
 
-        $("#GoSkills").click(function(){
-            $('html,body').animate({
-                scrollTop: $("#Skill").offset().top},
-            'slow');
-        });
+      </div>
 
-        $("#GoProjects").click(function(){
-            $('html,body').animate({
-                scrollTop: $("#Projects").offset().top},
-                'slow');
-        });
-    </script>
+    </div>
+  </div>
+</section>
+ -->
+
+<!-- Footer section -->
+
+<footer>
+	<div class="container">
+    
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+            
+                <ul class="social-icon"> 
+                    <li><a href="https://www.linkedin.com/in/weichuan-tran-581690150/" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                    <li><a href="https://github.com/weichuan888" class="fa fa-github wow fadeInUp" data-wow-delay="1.0s"></a></li>
+                </ul>
+
+				<p class="wow fadeInUp"  data-wow-delay="1s" >Copyright &copy; 2016 Snapshot Studio | 
+                Design: <a href="https://plus.google.com/+templatemo" title="free css templates" target="_blank">Templatemo</a></p>
+                
+			</div>
+			
+		</div>
+        
+	</div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
