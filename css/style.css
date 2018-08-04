@@ -503,22 +503,17 @@ a:hover, a:active, a:focus {
 
 #gallery figcaption h1 {
   font-size: 20px;
-}
-
-#gallery figure {
-  margin-bottom: 25px;
-  position: relative;
-  top: 0px;
-  display: block;
 
 }
 
-#gallery figure img {
-  width: 300px;
-  height: 350px;
-  border: 1px solid black;
-  margin-left: 80px;
+#gallery img {
+  width: 400px;
+  height: 420px;
+/*   border: 1px solid black;
+ */  
+
 }
+
 
 /*---------------------------------------
     Contact section              
