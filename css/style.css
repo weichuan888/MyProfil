@@ -505,6 +505,9 @@ a:hover, a:active, a:focus {
   font-size: 20px;
 
 }
+#gallery figcaption {
+  width: 100%;
+}
 
 #gallery img {
   width: 400px;
@@ -645,6 +648,9 @@ footer {
   #about .team-thumb {
     margin-top: 32px;
   }
+  #gallery figcaption {
+    width: 100%;
+  }
 
 }
 
@@ -665,6 +671,9 @@ footer {
     position: relative;
     top: 0;
     left: 0;
+  }
+  #gallery figcaption {
+    width: 100%;
   }
 
 }
@@ -690,6 +699,10 @@ footer {
   #contact {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  #gallery figcaption {
+    width: 100%;
   }
 
 }
